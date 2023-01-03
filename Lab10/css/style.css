@@ -1,0 +1,14 @@
+.title {
+  font-size: 24px;
+}
+.title a {
+  color: #369;
+}
+
+div p {
+  font-family: "Courier New", Courier, monospace;
+}
+div span {
+  display: block;
+  width: 200px;
+}

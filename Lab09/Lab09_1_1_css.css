@@ -1,0 +1,28 @@
+body{
+    display: grid;
+    grid-template-columns: 7% 1fr 1fr;
+    grid-template-rows: 1fr;
+    background: none;
+    grid-gap: 10px;
+    height: 100vh;
+    background-color: bisque;
+    font-family: cursive;
+}
+div {
+    border: 2px solid black;
+}
+.title{
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    font-size: 3em
+}
+span{
+    font-weight: bold;
+}
+h3{
+    margin-top: 0px;
+    margin-bottom: 6px;
+}
+p{
+    margin-top: 0px;
+}

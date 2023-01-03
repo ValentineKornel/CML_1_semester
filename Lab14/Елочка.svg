@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg5"
+   sodipodi:docname="рисунок2.svg"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.5393939"
+     inkscape:cx="122.77559"
+     inkscape:cy="377.42126"
+     inkscape:window-width="1920"
+     inkscape:window-height="1051"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Слой 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:green;stroke-width:0.264583"
+       d="m 90.406248,49.156249 -30.25,40.218751 h 17.875001 l -31.968749,45.71875 32.65625,-0.6875 0.34375,24.75 18.562499,-0.6875 -0.687501,-24.75 L 134.75,133.375 102.4375,88.687499 121,89.031248 Z"
+       id="path523" />
+  </g>
+  <path stroke="red" fill="yellow"
+  d=" m 80,58 l 10.5,-10 10,10 -8,-15 15,0 -15,-5 -3,-10 -3,10 -15,5 15,0 -6.3,15">
+  <animate attributeName="fill" from="yellow" to="red" dur="1s" repeatCount="indefinite"/>
+  <animate attributeName="stroke" from="red" to="blue" dur="1s" repeatCount="indefinite"/>
+  </path>
+</svg>

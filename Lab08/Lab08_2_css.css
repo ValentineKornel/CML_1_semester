@@ -1,0 +1,23 @@
+ul.nav li{
+    display: inline;
+    margin-right: -4px;
+}
+
+ul.nav a{
+    display: inline-block;
+    background-color: yellow;
+    color: green;
+    border-width: 2px 2px 2px 0px;
+    border-color: green;
+    border-style: solid;
+    text-decoration: none;
+    width: 90px;
+    height:35px;
+    text-align: center;
+    padding-top: 15px;
+}
+ul #a1{
+    border-width: 2px 2px 2px 2px;
+    border-color: green;
+    border-style: solid;
+}

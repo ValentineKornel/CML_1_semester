@@ -1,0 +1,21 @@
+aside{float: right;
+    border: 2px solid gray;
+    width: 130px;}
+ul.nav{list-style-type: none;}
+ul.nav a{
+    display: block;
+    margin-bottom: 7px;
+}
+ul.nav a:link{
+    color: red;
+    text-decoration: none;
+}
+ul.nav a:visited{
+    color: #8B0000;
+}
+ul.nav a:hover{
+    color: green;
+}
+ul.nav a:active{
+    color: rgb(184, 134, 11);
+}

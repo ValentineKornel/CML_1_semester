@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="Lab13_2.xsl"?>
+
+<accreditation>
+    <student_list>Sudents List</student_list>
+   <student rollno = "1">
+      <name>Sophia</name> 
+      <kyar>2</kyar>
+      <oaip>10</oaip>
+      <opi>5</opi>
+   </student> 
+   <student rollno = "2"> 
+      <name>Liam</name>
+      <kyar>10</kyar>
+      <oaip>6</oaip>
+      <opi>2</opi>
+   </student> 
+   <student rollno = "3"> 
+      <name>Amalia</name> 
+      <kyar>8</kyar>
+      <oaip>1</oaip>
+      <opi>9</opi>
+   </student>
+   <student rollno = "4"> 
+      <name>Lucas</name> 
+      <kyar>2</kyar>
+      <oaip>2</oaip>
+      <opi>2</opi>
+   </student>
+   <student rollno = "5"> 
+      <name>Mia</name> 
+      <kyar>7</kyar>
+      <oaip>6</oaip>
+      <opi>10</opi>
+   </student>
+   <student rollno = "6"> 
+      <name>Ethan</name> 
+      <kyar>7</kyar>
+      <oaip>8</oaip>
+      <opi>7</opi>
+   </student>
+   <student rollno = "7"> 
+      <name>Silvie</name> 
+      <kyar>10</kyar>
+      <oaip>10</oaip>
+      <opi>10</opi>
+   </student>
+</accreditation>

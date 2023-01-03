@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<head>
+    <title>Lab10_1</title>
+    <meta charset="utf-8">
+    <style>
+      label{
+
+        display: inline-block;
+        margin-left: 20px;
+        width: 130px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+      }
+      input{
+        margin-left: 20px;
+        display: inline-block;
+        margin-top: 5px;
+        margin-bottom: 5px;
+      }
+      footer{
+        position: fixed;
+        width: 100%;
+        background-color:sandybrown;
+        height: 50px;
+        bottom: 0;
+        left: 0;
+      }
+
+    </style>
+</head>
+<body id="bod">
+        <img id="pict1" src="picture1.jpg">
+        <img id="pict2" src="picture2.jpg">
+        <img id="pict3" src="picture3.jpg">
+        <img id="pict4" src="picture4.jpg">
+
+        <form style="margin-top: 40px; background-color:burlywood; width:350px; border: 3px solid gray;">
+          <label style="width: 350px; text-align: center; margin: 0;">Execution of the order</label>
+          <label for="Numb">Amount of product</label><input id="Numb" type="number" style="width: 40px;" />
+          <label for="FrName">Your First Name</label><input id="FrName" type="text" />
+          <label for="LName">Your Last Name</label><input id="LName" type="text" />
+          <label for="Addr">Your Address</label><input id="Addr" type="text" />
+          <input id="Subm" type="button" value="submit" style="margin-left: 280px;">
+
+        </form>
+
+        <footer id="footer"></footer>
+
+        <script>
+            document.getElementById("bod").style.backgroundColor = "bisque";
+            document.getElementById("pict1").addEventListener("mouseover", function(){ alert("Some information about this picrurre.Some information about this picrurre.Some information about this picrurre.Some information about this picrurre."); });
+            document.getElementById("pict2").addEventListener("click", BordColorFunction);
+            document.getElementById("pict3").addEventListener("mouseover", PosOver);
+            document.getElementById("pict3").addEventListener("mouseout", PosOut);
+            document.getElementById("Subm").addEventListener("click", SentFunc);
+
+            function BordColorFunction(){
+              document.getElementById("pict2").style.border = "10px solid red";
+            }
+            function PosOver(){
+              document.getElementById("pict3").src = "picture4.jpg";
+            }
+            function PosOut(){
+              document.getElementById("pict3").src = "picture3.jpg";
+            }
+            function SentFunc(){
+              let Number = document.getElementById("Numb");
+              let Frname = document.getElementById("FrName");
+              let Lname = document.getElementById("LName");
+              let Addr = document.getElementById("Addr");
+
+              let list1 = document.createElement("span")
+              list1.innerHTML = Number.value;
+              list1.style.marginLeft = "10px";
+              document.getElementById("footer").append(list1);
+
+              let list = document.createElement("span")
+              list.innerHTML = Frname.value;
+              list.style.marginLeft= "10px";
+              document.getElementById("footer").append(list);
+
+              let list2 = document.createElement("span");
+              list2.innerHTML = Lname.value;
+              list2.style.marginLeft= "10px";
+              document.getElementById("footer").append(list2);
+
+              let list3 = document.createElement("span");
+              list3.innerHTML = Addr.value;
+              list3.style.marginLeft= "10px";
+              document.getElementById("footer").append(list3);
+            }
+          </script>
+          
+</body>

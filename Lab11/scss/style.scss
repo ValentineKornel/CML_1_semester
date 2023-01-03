@@ -1,0 +1,146 @@
+@import 'variable';
+
+header{
+    @extend %grbord;
+    font-family: $txt_style;
+    background-color: $backgr;
+    width: 1516px;
+    height: 60px;
+    img{
+        width:100px;
+        height: 50px;
+        padding: 5px 0px 5px 60px;
+        float: left;
+    }
+    ul{
+        list-style-type: none;
+        margin-left: 560px;
+        margin-top: 0px;
+        
+        li{
+            a{
+                display: block;
+                @extend %grbord;
+                width: 200px;
+                height: 20px;
+                float: left;
+                margin: 16px 0px 16px 20px;
+                text-align: center;
+                text-decoration: none;
+                color:  rgb(73, 73, 73);
+                &:active{
+                    color: aqua;
+                }
+            }
+
+        }
+    }
+}
+aside{
+    font-family: $txt_style;
+    float: right;
+    width: 30%;
+    margin-top: 10px;
+    height: 640px;
+    form{
+        @extend %grbord;
+        background-color: $backgr;
+        p{
+            padding-left: 10px;
+        }
+        input[type="text"]{
+            @include inp;
+
+        }
+        input[type="email"]{
+            @include inp;
+        }
+        input[type="date"]{
+            @include inp;
+        }
+        input[type="submit"]{
+            @include btn;
+        }
+        input[type="reset"]{
+            @include btn;
+            background-color:hsla(358, 95%, 66%, 0.947)
+        }
+    }
+    h2{
+        @extend %grbord;
+        background-color: $backgr;
+        text-align: center;
+        margin: 10px 0px 10px 0px;
+    }
+    div{
+        font-size: p_size(2);
+        @extend %grbord;
+        background-color: $backgr;
+        img{
+            @include aspict;
+        }
+        p{
+            @include aspicttext;
+        }
+        
+    }
+}
+main{
+    font-family: $txt_style;
+    width: 1040px;
+    height: 640px;
+    margin-top: 10px;
+
+    h2{
+        font-size: $hsize;
+        margin-top: 0px;
+        background-color: $backgr;
+        @extend %grbord;
+        width: 1034px;
+        text-align: center;
+        padding: 5px 0px 5px 0px;
+    }
+    
+    div{
+        div{
+            font-size: p_size(1);
+            background-color: $backgr;
+            @extend %grbord;
+            width: 31%;
+            height: 347px;
+            float: left;
+            margin-left: 20px;
+            overflow: auto;
+            span{
+                font-weight: bold;
+            }
+        }
+        height: 350px;
+    }
+    h3{
+        background-color: $backgr;
+        width: 1036px;
+        border: 2px solid gray;
+        text-align: center;
+        padding: 5px 0px 5px 0px;
+    }
+    .div2{
+        border: none;
+        height: 130px;
+        img{
+            width: 180px;
+            height: 130px;
+            margin: 0px 0px 0px 60px;
+        }
+    }
+}
+
+footer{
+    font-family: $txt_style;
+    background-color: $backgr;
+    @extend %grbord;
+    position: fixed;
+    bottom: 1%;
+    height: 40px;
+    width: 1516px;
+}

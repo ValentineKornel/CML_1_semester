@@ -1,0 +1,13 @@
+quotes{
+    background-color: bisque;
+}
+quote{
+    display: block;
+    width: 600px;
+    margin-top: 20px;
+}
+author{
+    margin-left: 50px;
+    text-decoration: underline;
+    font-weight: bold;
+}

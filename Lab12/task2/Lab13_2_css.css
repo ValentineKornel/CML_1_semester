@@ -1,0 +1,15 @@
+quotes{
+    background-color: bisque;
+}
+quote{
+    display: block;
+    width: 600px;
+    margin-top: 20px;
+}
+name{
+    text-decoration: underline;
+    font-weight: bold;
+}
+author{
+    margin-left: 180px;
+}

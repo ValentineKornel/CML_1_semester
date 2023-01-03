@@ -1,0 +1,32 @@
+body{
+    background-color: bisque;
+}
+
+
+h1, h2, h3 {
+    color:purple;
+    font-family: "Monotype Corsiva";
+}
+
+.podpuncti1 {
+    color:red;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18pt;
+}
+
+.podpuncti2 {
+    color:yellow;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20pt;
+}
+
+.podpuncti3 {
+    color:green;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22pt;
+}
+table, th, td, tr{
+    border-collapse: collapse;
+    border: 2px solid gray;
+    background-color: #D2B48C;
+}

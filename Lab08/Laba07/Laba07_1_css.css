@@ -1,0 +1,13 @@
+img{width: 200px;
+    height: 200px;
+    margin: 30px;}
+.im1:hover{transform: scale(0.5);}
+.im2:hover{transform: rotate(45deg);}
+.im3:hover{transform: translate(50px, 0px);}
+.im4:hover{transform: skew(-20deg);}
+@keyframes abz{
+    from{opacity: 0;}
+    to {opacity: 0.8;}
+}
+
+

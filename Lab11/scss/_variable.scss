@@ -1,0 +1,35 @@
+$border_width: 2px;
+$backgr: bisque;
+$txt_style: cursive;
+%grbord{
+    border: #{$border_width} solid gray;
+}
+@mixin inp{
+    background-color: #7c7a7a;
+    color: #e7e5df;
+}
+@mixin btn{
+    background-color: hsla(326, 71%, 77%, 0.947);
+    color: #e7e5df;
+}
+@mixin aspict{
+    margin: 10px;
+    width: 160px;
+    height: 150px;
+    float: left;
+}
+@mixin aspicttext{
+    display: block;
+    height: 160px;
+    margin-top: 5px;
+    overflow: auto;
+}
+$hsize: 25px;
+@function p_size($number){
+    @if($number == 1){
+        @return $hsize - 8px;
+    }
+    @else{
+        @return $hsize - 10px;
+    }
+}
